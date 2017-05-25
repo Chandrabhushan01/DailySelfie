@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DailySelfie</string>
+    <string name="album_name">DailySelfie</string>
+    <string name="btnIntend">Take (big) Picture</string>
+    <string name="btnIntendS">Take (small) Picture</string>
+    <string name="btnIntendV">Take Video</string>
+    <string name="cannot">Cannot</string>
+</resources>
