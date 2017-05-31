@@ -61,9 +61,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         mImageView = (ImageView) findViewById(R.id.image);
-       // mImageView1=  (ImageView) findViewById(R.id.image1);
+        // mImageView1=  (ImageView) findViewById(R.id.image1);
 
-         imageListView = (ListView) findViewById(R.id.list);
+        imageListView = (ListView) findViewById(R.id.list);
 
 
 
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view,
                                     int position, long id) {
-               // mImageView.setImageBitmap(getBitmap(FilePathStrings[position]));
+                // mImageView.setImageBitmap(getBitmap(FilePathStrings[position]));
 
                 Intent i = new Intent(MainActivity.this, ImageViewActivity.class);
                 // Pass String arrays FilePathStrings
@@ -106,11 +106,11 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            });
+        });
 
         //alarmManager = (AlarmManager) getSystemService(Context.ALARM_SERVICE);
 
-       // setRepeatingAlarm();
+        // setRepeatingAlarm();
         alarm.setAlarm(this);
 
 
@@ -183,15 +183,15 @@ public class MainActivity extends AppCompatActivity {
            // mphoto.compress(Bitmap.CompressFormat.JPEG, 100, stream);
             stream.flush();
             stream.close();*/
-           // mImageView1.setImageBitmap(mphoto);
-           // Log.i("DailySelfie", "failed to print file");
+            // mImageView1.setImageBitmap(mphoto);
+            // Log.i("DailySelfie", "failed to print file");
 
             // Parse the gallery image url to uri
-          // Uri savedImageURI = Uri.parse(mCurrentPhotoPath);
-          // Bitmap img = BitmapFactory.decodeFile(mCurrentPhotoPath);
+            // Uri savedImageURI = Uri.parse(mCurrentPhotoPath);
+            // Bitmap img = BitmapFactory.decodeFile(mCurrentPhotoPath);
 
             // Display the saved image to ImageView
-        //  mImageView.setImageBitmap(getBitmap(savedImageURI));
+            //  mImageView.setImageBitmap(getBitmap(savedImageURI));
 
 
 
@@ -263,7 +263,7 @@ public class MainActivity extends AppCompatActivity {
                 return true;*/
                 takeImageFromCamera();
 
-            return true;
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }

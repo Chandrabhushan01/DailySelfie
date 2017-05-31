@@ -14,8 +14,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.chandra.dailyselfie.R;
-
 /**
  * Created by Chandra on 2/7/2017.
  */
