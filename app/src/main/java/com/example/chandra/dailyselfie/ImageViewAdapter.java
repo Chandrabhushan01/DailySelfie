@@ -15,7 +15,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by Chandra on 2/7/2017.
+ * Created by Chandra on 2/7/2017 && playing with git.
  */
 
 public class ImageViewAdapter extends BaseAdapter {

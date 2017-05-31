@@ -182,7 +182,6 @@ public class MainActivity extends AppCompatActivity {
             stream = new FileOutputStream(file);
            // mphoto.compress(Bitmap.CompressFormat.JPEG, 100, stream);
             stream.flush();
-            // baba baba baba
             stream.close();*/
             // mImageView1.setImageBitmap(mphoto);
             // Log.i("DailySelfie", "failed to print file");
